@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tinamous.InfluxDbBot.DAL.DynamoDB\Tinamous.InfluxDbBot.DAL.DynamoDB.csproj" />
+    <ProjectReference Include="..\Tinamous.InfluxDbBot.DAL.Interfaces\Tinamous.InfluxDbBot.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\Tinamous.InfluxDbBot.Domain\Tinamous.InfluxDbBot.Domain.csproj" />
+    <ProjectReference Include="..\Tinamous.InfluxDbBot.InfluxDbClient\Tinamous.InfluxDbBot.InfluxDbClient.csproj" />
+  </ItemGroup>
+
+</Project>

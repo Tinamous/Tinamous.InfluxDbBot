@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.Lambda.MeasurementSender", "Tinamous.InfluxDbBot.Lambda.MeasurementSender\Tinamous.InfluxDbBot.Lambda.MeasurementSender.csproj", "{FC945A0F-C490-46AA-9935-CB39907C96F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.Lambda.MeasurementSender.Tests", "Tinamous.InfluxDbBot.Lambda.MeasurementSender.Tests\Tinamous.InfluxDbBot.Lambda.MeasurementSender.Tests.csproj", "{8F685B9D-04A7-4012-8213-0F805CCBCDDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lambdas", "Lambdas", "{4D2F6FD8-91FA-4DAA-B5ED-1274116ADE44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{FEC294D8-3EAE-4E0F-AD96-701A2DCE408A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.DAL.DynamoDB", "Tinamous.InfluxDbBot.DAL.DynamoDB\Tinamous.InfluxDbBot.DAL.DynamoDB.csproj", "{26902862-BC69-4FA1-AE03-6332A1B32CBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.DAL.Interfaces", "Tinamous.InfluxDbBot.DAL.Interfaces\Tinamous.InfluxDbBot.DAL.Interfaces.csproj", "{DDCFAFA0-9F36-475B-B7C7-0C1FDB627BF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.Domain", "Tinamous.InfluxDbBot.Domain\Tinamous.InfluxDbBot.Domain.csproj", "{39E41A27-C8C6-434C-BBDF-5E01D97C0EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8F5605DE-6A72-4D99-ABD0-5EB973F492C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{A0C62590-ABC4-4C45-AC5F-5A744841D4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{4531A1A8-F5A2-4543-8A63-B5E859C02F50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.Service.Tests", "Tinamous.InfluxDbBot.Service.Tests\Tinamous.InfluxDbBot.Service.Tests.csproj", "{E6816C9E-7F31-4D51-92BD-603FE002E4E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B7EB41A4-0316-4811-827E-68710575BD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tinamous.InfluxDbBot.InfluxDbClient", "Tinamous.InfluxDbBot.InfluxDbClient\Tinamous.InfluxDbBot.InfluxDbClient.csproj", "{F2C46C28-FC86-45CE-98A8-7683AD8A2BE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.Domain.Tests", "Tinamous.InfluxDbBot.Domain.Tests\Tinamous.InfluxDbBot.Domain.Tests.csproj", "{3A4569E4-8490-4F26-94F1-ED0DBCE5CC8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.ConsoleHost", "Tinamous.InfluxDbBot.ConsoleHost\Tinamous.InfluxDbBot.ConsoleHost.csproj", "{8F780C64-9392-431C-B38B-2743B0F8A640}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinamous.InfluxDbBot.Service", "Tinamous.InfluxDbBot.Service\Tinamous.InfluxDbBot.Service.csproj", "{896F0D15-97E9-4A7D-8BF3-5DC0531EF99F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC945A0F-C490-46AA-9935-CB39907C96F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC945A0F-C490-46AA-9935-CB39907C96F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC945A0F-C490-46AA-9935-CB39907C96F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC945A0F-C490-46AA-9935-CB39907C96F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F685B9D-04A7-4012-8213-0F805CCBCDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F685B9D-04A7-4012-8213-0F805CCBCDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F685B9D-04A7-4012-8213-0F805CCBCDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F685B9D-04A7-4012-8213-0F805CCBCDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26902862-BC69-4FA1-AE03-6332A1B32CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26902862-BC69-4FA1-AE03-6332A1B32CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26902862-BC69-4FA1-AE03-6332A1B32CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26902862-BC69-4FA1-AE03-6332A1B32CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCFAFA0-9F36-475B-B7C7-0C1FDB627BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCFAFA0-9F36-475B-B7C7-0C1FDB627BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCFAFA0-9F36-475B-B7C7-0C1FDB627BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCFAFA0-9F36-475B-B7C7-0C1FDB627BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E41A27-C8C6-434C-BBDF-5E01D97C0EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E41A27-C8C6-434C-BBDF-5E01D97C0EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E41A27-C8C6-434C-BBDF-5E01D97C0EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E41A27-C8C6-434C-BBDF-5E01D97C0EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6816C9E-7F31-4D51-92BD-603FE002E4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6816C9E-7F31-4D51-92BD-603FE002E4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6816C9E-7F31-4D51-92BD-603FE002E4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6816C9E-7F31-4D51-92BD-603FE002E4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C46C28-FC86-45CE-98A8-7683AD8A2BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C46C28-FC86-45CE-98A8-7683AD8A2BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C46C28-FC86-45CE-98A8-7683AD8A2BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C46C28-FC86-45CE-98A8-7683AD8A2BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4569E4-8490-4F26-94F1-ED0DBCE5CC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4569E4-8490-4F26-94F1-ED0DBCE5CC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4569E4-8490-4F26-94F1-ED0DBCE5CC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4569E4-8490-4F26-94F1-ED0DBCE5CC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F780C64-9392-431C-B38B-2743B0F8A640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F780C64-9392-431C-B38B-2743B0F8A640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F780C64-9392-431C-B38B-2743B0F8A640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F780C64-9392-431C-B38B-2743B0F8A640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896F0D15-97E9-4A7D-8BF3-5DC0531EF99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896F0D15-97E9-4A7D-8BF3-5DC0531EF99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896F0D15-97E9-4A7D-8BF3-5DC0531EF99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896F0D15-97E9-4A7D-8BF3-5DC0531EF99F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC945A0F-C490-46AA-9935-CB39907C96F2} = {4D2F6FD8-91FA-4DAA-B5ED-1274116ADE44}
+		{8F685B9D-04A7-4012-8213-0F805CCBCDDC} = {4D2F6FD8-91FA-4DAA-B5ED-1274116ADE44}
+		{26902862-BC69-4FA1-AE03-6332A1B32CBF} = {FEC294D8-3EAE-4E0F-AD96-701A2DCE408A}
+		{DDCFAFA0-9F36-475B-B7C7-0C1FDB627BF3} = {FEC294D8-3EAE-4E0F-AD96-701A2DCE408A}
+		{39E41A27-C8C6-434C-BBDF-5E01D97C0EAE} = {8F5605DE-6A72-4D99-ABD0-5EB973F492C4}
+		{E6816C9E-7F31-4D51-92BD-603FE002E4E7} = {4531A1A8-F5A2-4543-8A63-B5E859C02F50}
+		{F2C46C28-FC86-45CE-98A8-7683AD8A2BE9} = {B7EB41A4-0316-4811-827E-68710575BD0D}
+		{3A4569E4-8490-4F26-94F1-ED0DBCE5CC8B} = {8F5605DE-6A72-4D99-ABD0-5EB973F492C4}
+		{8F780C64-9392-431C-B38B-2743B0F8A640} = {A0C62590-ABC4-4C45-AC5F-5A744841D4D9}
+		{896F0D15-97E9-4A7D-8BF3-5DC0531EF99F} = {4531A1A8-F5A2-4543-8A63-B5E859C02F50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA2951FB-1BCB-426C-B33A-5EC732E6882A}
+	EndGlobalSection
+EndGlobal

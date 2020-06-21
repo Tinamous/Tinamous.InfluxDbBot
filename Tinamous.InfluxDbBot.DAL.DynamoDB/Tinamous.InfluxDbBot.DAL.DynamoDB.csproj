@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tinamous.InfluxDbBot.DAL.Interfaces\Tinamous.InfluxDbBot.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
